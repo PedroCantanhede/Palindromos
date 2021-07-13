@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="./img/icon.png" type="img/png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e3c5453e4f.js" crossorigin="anonymous"></script>
+
+    <title>Palíndromos</title>
+</head>
+<body>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/bg.png" class="square" alt="Background">
+        <div class="form">
+            <div class="palindrome-info">
+                <h3 class="title">O que é um palíndromo?</h3>
+                <p class="text">
+                    É uma palavra, frase ou número que permanece igual quando lida de trás para diante. 
+                    Palíndromo é qualquer série de elementos que apresenta a mesma sequência de unidades nos dois sentidos.
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <i class="fas fa-angle-right icon" alt="arrow"></i>
+                        <p>ovo</p>
+                    </div>
+                    <div class="information">
+                        <i class="fas fa-angle-right icon" alt="arrow"></i>
+                        <p>reviver</p>
+                    </div>
+                    <div class="information">
+                        <i class="fas fa-angle-right icon" alt="arrow"></i>
+                        <p>191</p>
+                    </div>
+                    <div class="information">
+                        <i class="fas fa-angle-right icon" alt="arrow"></i>
+                        <p>252</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p class="contact">Desenvolvido por <span>Pedro Cantanhêde</span></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pedro-cantanhede/">
+                            <i class="fab fa-linkedin-in" target="_blank"></i>
+                        </a>
+                        <a href="https://github.com/PedroCantanhede">
+                            <i class="fab fa-github" target="_blank"></i>
+                        </a>
+                        <a href="https://www.instagram.com/pedro_cantanhede/">
+                            <i class="fab fa-instagram" target="_blank"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="palindrome-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="index.html">
+                    <h3 class="title">Palíndromos</h3>
+                    <p>Descubra se essa palavra é um palíndromo ou não.</p>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input">
+                        <label for="">Palavra / Número</label>
+                        <span>Palavra / Número</span>
+                    </div>
+                    <button class="btn" type="button" onclick="">Conferir</button>
+
+                    <div class="result">
+                        <p>Esta palavra é um <span>palíndromo!</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
