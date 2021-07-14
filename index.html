@@ -67,18 +67,18 @@
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form action="index.html">
+                <form id="formId" action="index.html">
                     <h3 class="title">Palíndromos</h3>
-                    <p>Descubra se essa palavra é um palíndromo ou não.</p>
+                    <p>Descubra se é um palíndromo ou não.</p>
                     <div class="input-container">
-                        <input type="text" name="name" class="input">
+                        <input type="text" name="name" class="input" id="palindrome">
                         <label for="">Palavra / Número</label>
                         <span>Palavra / Número</span>
                     </div>
-                    <button class="btn" type="button" onclick="">Conferir</button>
+                    <button class="btn" type="button" onclick="palindromeFunc()">Conferir</button>
 
-                    <div class="result">
-                        <p>Esta palavra é um <span>palíndromo!</span></p>
+                    <div id="result" class="result">
+                        
                     </div>
                 </form>
             </div>

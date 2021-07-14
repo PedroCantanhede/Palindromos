@@ -19,3 +19,20 @@ inputs.forEach((input) => {
     input.addEventListener("focus", focusFunc);
     input.addEventListener("blur", blurFunc);
 });
+
+
+// Checar se é Palíndromo
+let result = document.getElementById("result");
+
+var palindrome = function palindromeFunc(string) {
+    if (string == string.split('').reverse().join('')) {
+        result.innerHTML = `<p>Esta palavra é um <span>palíndromo!</span></p>`;
+    } else {
+        result.innerHTML = `<p>Esta palavra não é um <span>palíndromo!</span></p>`;
+    }
+}
+
+document.getElementById('formId').onsubmit = function palindromeFunc() {
+    palindrome(document.getElementById('palindrome').value);
+    return false;
+}
