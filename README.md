@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Palíndromos" title="Palíndromos" src="github/logo.png" width="320px" />
+    <img alt="Palíndromos" title="Palíndromos" src="github/logo.png" width="300px" />
 </h1>
 
 <div align="center">
@@ -15,7 +15,7 @@
 
 Projeto pessoal com o intuito de elaborar uma aplicação em JavaScript que exibe se a palavra é um palíndromo ou não.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c0a8e42d-208a-41cd-aabe-c5f405a37e3b/deploy-status)](https://app.netlify.com/sites/palindromejs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c0a8e42d-208a-41cd-aabe-c5f405a37e3b/deploy-status)](https://palindromejs.netlify.app/)
 
 <div align="center" >
   <img alt="Palíndromos Layout" title="Palíndromos" src="github/layout.png"/>
