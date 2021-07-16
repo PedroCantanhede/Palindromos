@@ -26,12 +26,19 @@ let result = document.getElementById("result");
 
 var palindrome = function palindromeFunc(string) {
     if (string == string.split('').reverse().join('')) {
-        result.innerHTML = `<p>Esta palavra é um <span>palíndromo!</span></p>`;
+        result.innerHTML = `<p><i class="fas fa-check"></i> Legal! Temos um <span class="true">palíndromo</span>.</p>`;
     } else {
-        result.innerHTML = `<p>Esta palavra não é um <span>palíndromo!</span></p>`;
+        result.innerHTML = `<p><i class="fas fa-ban"></i> Opa! Não é um <span class="false">palíndromo</span>.</p>`;
     }
 }
 
+// Função utilizando o botão "Conferir"
+document.getElementById("check").addEventListener("click", ()=> {
+    palindrome(document.getElementById('palindrome').value)
+});
+
+
+// Função apertando o "enter" dentro do input
 document.getElementById('formId').onsubmit = function palindromeFunc() {
     palindrome(document.getElementById('palindrome').value);
     return false;

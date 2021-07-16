@@ -6,6 +6,9 @@
     --white-color: #fff;
     --secundary-white: #fafafa;
     --gray-color: #333;
+
+    --true-color: #7cfc00;
+    --false-color: #9c0a3d;
 }
 
 * {
@@ -112,6 +115,27 @@ form p {
 
 .result p {
     margin-top: 4rem;
+    font-size: 1rem;
+}
+
+.result .true {
+    color: var(--true-color);
+    font-weight: 500;
+}
+
+.result .false {
+    color: var(--false-color);
+    font-weight: 500;
+}
+
+.result .fas.fa-check {
+    color: var(--true-color);
+    margin-right: 0.5rem;
+}
+
+.result .fas.fa-ban {
+    color: var(--false-color);
+    margin-right: 0.5rem;
 }
 
 .input-container label {

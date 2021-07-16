@@ -14,6 +14,12 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e3c5453e4f.js" crossorigin="anonymous"></script>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <title>Palíndromos</title>
 </head>
 <body>
@@ -72,11 +78,12 @@
                     <p>Descubra se é um palíndromo ou não.</p>
                     <div class="input-container">
                         <input type="text" name="name" class="input" id="palindrome">
-                        <label for="">Palavra / Número</label>
-                        <span>Palavra / Número</span>
+                        <label for="">Palavra | Número</label>
+                        <span>Palavra | Número</span>
                     </div>
-                    <button class="btn" type="button" onclick="palindromeFunc()">Conferir</button>
+                    <button id="check" class="btn" type="button"">Conferir</button>
 
+                    <!-- Aqui entra o resultado -->
                     <div id="result" class="result">
                         
                     </div>
