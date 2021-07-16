@@ -5,10 +5,10 @@
 <div align="center">
     <h3> 🟣 Descubra se é um palíndromo ou não! 🟣 </h3>
     <a href="https://github.com/PedroCantanhede" target="_blank">
-      <img src="https://img.shields.io/static/v1?label=Author&message=PedroCantanhede&color=f50057&style=for-the-badge" target="_blank" alt="Pedro Cantanhêde">
+      <img src="https://img.shields.io/static/v1?label=Author&message=PedroCantanhede&color=aa52f7&style=for-the-badge" target="_blank" alt="Pedro Cantanhêde">
     </a>
-    <img src="https://img.shields.io/github/repo-size/PedroCantanhede/Palindromos?color=f50057&style=for-the-badge" alt="Repositório"> 
-    <img src="https://img.shields.io/github/languages/count/PedroCantanhede/Palindromos?color=f50057&style=for-the-badge" alt="Linguagens">
+    <img src="https://img.shields.io/github/repo-size/PedroCantanhede/Palindromos?color=aa52f7&style=for-the-badge" alt="Repositório"> 
+    <img src="https://img.shields.io/github/languages/count/PedroCantanhede/Palindromos?color=aa52f7&style=for-the-badge" alt="Linguagens">
 </div>
 
 ## Palíndromos
